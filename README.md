@@ -1,5 +1,20 @@
 # CTF Tools
 
+## Installation & Usage
+
+Build container:
+```bash
+docker build -t ctf-tools .
+```
+(it's huge, ~4GB).
+
+Run container:
+```bash
+docker run -it --rm --name=ctf-tools --net=host -v $(pwd)/data:/root/data ctf-tools
+```
+
+Container uses fish shell, provides neovim and tmux for convenience.
+
 ## Tools
 
 ### nmap
