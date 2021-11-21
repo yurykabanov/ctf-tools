@@ -1,0 +1,67 @@
+add_newline = false
+
+[username]
+disabled = false
+show_always = true
+format = "[$user]($style) "
+
+[hostname]
+format = "[$hostname]($style) "
+
+[cmd_duration]
+disabled = true
+
+[directory]
+fish_style_pwd_dir_length = 1
+format = "[$path]($style)[$read_only]($read_only_style) "
+
+[line_break]
+disabled = true
+
+# disable unused stuff
+
+[conda]
+disabled = true
+
+[crystal]
+disabled = true
+
+[docker_context]
+disabled = true
+
+[dotnet]
+disabled = true
+
+[elixir]
+disabled = true
+
+[elm]
+disabled = true
+
+[erlang]
+disabled = true
+
+[julia]
+disabled = true
+
+[nim]
+disabled = true
+
+[ocaml]
+disabled = true
+
+[ruby]
+disabled = true
+
+[singularity]
+disabled = true
+
+[terraform]
+disabled = true
+
+[zig]
+disabled = true
+
+[purescript]
+disabled = true
+
